@@ -1,0 +1,107 @@
+.Main_container{
+  /* border: 1px solid blue; */
+  width: 90%;
+  /* height: 95vh; */
+  margin: auto;
+  /* display: grid;
+  place-items: center; */
+  background-image:
+      linear-gradient(rgb(17, 144, 248), #f006c9, rgb(23, 23, 24));
+  border-radius: 7px;
+}
+.Form{
+    /* border:  3px solid green; */
+    width: 45%;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+.Child_container{
+    /* border:  1px solid pink; */
+
+}
+.Label{
+    /* border:  1px solid blue; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.Input{
+    border: 1px solid black;
+    width: 98%;
+    padding: 5px;
+    /* border-radius: 10px; */
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
+    margin: auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Input:focus {
+    outline: none;
+    /* border-color: #ccc; */
+}
+.BtnContainer{
+    /* border:  1px solid saddlebrown; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.label_container{
+    /* border:  1px solid slateblue; */
+    text-align: left;
+}
+.Btn{
+    border: 1px solid black;
+            width: 30%;
+            padding: 10px;
+            font-size: 15px;
+            border-radius: 20px;
+            /* text-align: center; */
+            font-size: large;
+            transition: all 1s ease-in-out;
+}
+.Input_container{
+    /* border:  1px solid rgb(12, 12, 12); */
+}
+.Btn:hover{
+    cursor: pointer;
+    background-color: #b84ea6;
+}
+.Form_container{
+    /* border:  1px solid white; */
+    padding: 50px;
+}
+.Name_container{
+    line-height: 0.2;
+    /* border:  1px solid black; */
+    margin: 10px;
+    background-color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.table{
+    /* border: 1px solid white; */
+    width: 100%;
+    border-collapse: collapse;
+    width: 95%;
+    margin: auto;
+padding: 10px;
+}
+.table thead{
+    color: white;
+}
+.table tbody{
+/* border: 1px solid white; */
+
+}
+
+
+ tr, td, th{
+    border: 1px solid white;
+    padding: 10px;
+}
+td{
+    color: white;
+}
